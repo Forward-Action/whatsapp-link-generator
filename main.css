@@ -138,9 +138,11 @@ button {
     text-decoration: none;
     width: fit-content;
     transition: all 0.4s;
+    margin-top: 20px;
 }
 button:hover,
-button:active {
+button:active,
+button:focus {
     background-color: #fded5e;
     color: #0a1128;
     border-color: #0a1128;
